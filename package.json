@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
-    "source-map-support": "^0.5.4"
+    "source-map-support": "^0.5.4",
+    "typings-for-css-modules-loader": "^1.7.0"
   },
   "devDependencies": {
     "@types/next": "^2.4.9",

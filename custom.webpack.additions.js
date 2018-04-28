@@ -9,24 +9,17 @@ module.exports = {
     ],
   },
   module: {
-    rules: [
-      {
-        test: /\.scss$/,
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader",
-            options: {
-              modules: true
-            }
-          },
-          {
-            loader: "sass-loader"
-          }
-        ]
-      }
-    ]
+    rules: [{
+      test: /\.scss/,
+      use: [{
+        loader: "css-loader",
+        options: {
+          localIdentName: '[path][name]__[local]--[hash:base64:5]',
+        }
+      }, {
+        loader: "sass-loader"
+      }],
+      fallback: "style-loader"
+    }]
   }
 };
