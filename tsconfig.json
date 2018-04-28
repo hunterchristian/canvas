@@ -1,7 +1,12 @@
 {
   "extends": "./node_modules/electron-webpack/tsconfig-base.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "jsx": "react",
+    "paths": {
+      "components": ["./src/renderer/components"],
+      "components/*": ["./src/renderer/components/*"]
+    }
   },
   "typeRoots": [
     "./node_modules/@types",

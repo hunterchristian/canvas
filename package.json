@@ -11,6 +11,8 @@
     "lint:fixup": "tslint 'src/**/*.js?(x)' 'src/**/*.ts?(x)' --fix -e '**/vendor/**/*.js?(x)' -e '**/vendor/**/*.ts?(x)'"
   },
   "dependencies": {
+    "css-loader": "^0.28.11",
+    "sass-loader": "^7.0.1",
     "source-map-support": "^0.5.4"
   },
   "devDependencies": {
@@ -36,7 +38,8 @@
   },
   "electronWebpack": {
     "renderer": {
-      "sourceDirectory": "src/renderer/pages"
+      "sourceDirectory": "src/renderer/pages",
+      "webpackConfig": "custom.webpack.additions.js"
     }
   }
 }
