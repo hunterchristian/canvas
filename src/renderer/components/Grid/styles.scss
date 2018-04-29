@@ -1,8 +1,10 @@
 :local
 
 .grid {
-  background: hotpink;
+  background: rgba(0, 0, 0, .005);
+  height: 100%;
 
+  // Bootstrap
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Editor from './editor';
-import Login from './login';
+import Editor from './Editor';
+import Login from './Login';
 
 const AppRouter = (
   <Router>
