@@ -12,8 +12,12 @@
   },
   "dependencies": {
     "@types/node": "9.6.6",
+    "@types/prop-types": "^15.5.3",
     "css-loader": "^0.28.11",
     "node-sass": "^4.9.0",
+    "prop-types": "^15.6.2",
+    "react-dnd": "^5.0.0",
+    "react-dnd-html5-backend": "^5.0.1",
     "redux": "^4.0.0",
     "reselect": "^3.0.1",
     "sass-loader": "^7.0.1",
