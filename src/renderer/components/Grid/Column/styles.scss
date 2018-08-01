@@ -14,8 +14,8 @@ $border-size: 1px;
 
   // TODO: responsive grid. This came from bootstrap
   //.col-1 {
-    -ms-flex: 0 0 calc(8.333333% - #{ $border-size });
-    flex: 0 0 calc(8.333333% - #{ $border-size });
-    max-width: calc(8.333333% - #{ $border-size });
+  -ms-flex: 0 0 calc(8.333333% - #{ $border-size });
+  flex: 0 0 calc(8.333333% - #{ $border-size });
+  max-width: calc(8.333333% - #{ $border-size });
   //}
 }
