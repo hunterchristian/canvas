@@ -11,31 +11,32 @@
     "lint:fixup": "tslint 'src/**/*.js?(x)' 'src/**/*.ts?(x)' --fix -e '**/vendor/**/*.js?(x)' -e '**/vendor/**/*.ts?(x)'"
   },
   "dependencies": {
-    "@types/node": "9.6.6",
-    "css-loader": "^0.28.11",
-    "node-sass": "^4.9.0",
+    "@types/node": "10.5.4",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
     "redux": "^4.0.0",
     "reselect": "^3.0.1",
-    "sass-loader": "^7.0.1",
-    "source-map-support": "^0.5.4",
-    "typescript": "2.7.2"
+    "sass-loader": "^7.0.3",
+    "source-map-support": "^0.5.6",
+    "webpack-sources": "1.1.0"
   },
   "devDependencies": {
-    "@types/react": "^16.3.10",
-    "@types/react-dom": "^16.0.5",
-    "@types/react-router-dom": "^4.2.6",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-router-dom": "^4.3.0",
     "babel-preset-react": "^6.24.1",
-    "electron": "1.8.4",
-    "electron-builder": "^20.8.1",
+    "electron": "2.0.5",
+    "electron-builder": "^20.26.1",
     "electron-webpack": "^2.1.2",
-    "electron-webpack-ts": "^2.0.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.1",
+    "electron-webpack-ts": "^2.0.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
-    "react-router-dom": "^4.2.2",
-    "tslint": "^5.9.1",
-    "tslint-react": "^3.5.1",
-    "webpack": "^4.4.1"
+    "react-router-dom": "^4.3.1",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.3"
   },
   "resolutions": {
     "webpack-sources": "1.0.1"
